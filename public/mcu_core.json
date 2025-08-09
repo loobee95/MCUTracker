@@ -1,0 +1,88 @@
+[
+  {
+    "phase": 1,
+    "items": [
+      { "id": "cap1", "type": "movie", "title": "Капитан Америка: Первый мститель", "minutes": 124, "poster": "posters/cap1.jpg" },
+      { "id": "capm", "type": "movie", "title": "Капитан Марвел", "minutes": 128, "poster": "posters/capm.jpg"  },
+      { "id": "im1", "type": "movie", "title": "Железный человек", "minutes": 126, "poster": "posters/im1.jpg"  },
+      { "id": "im2", "type": "movie", "title": "Железный человек 2", "minutes": 125, "poster": "posters/im2.jpg"  },
+      { "id": "ih",  "type": "movie", "title": "Невероятный Халк", "minutes": 112, "poster": "posters/ih.jpg"  },
+      { "id": "thor1", "type": "movie", "title": "Тор", "minutes": 114, "poster": "posters/thor1.jpg"  },
+      { "id": "avg1", "type": "movie", "title": "Мстители", "minutes": 142, "poster": "posters/avg1.jpg"  }
+    ]
+  },
+  {
+    "phase": 2,
+    "items": [
+      { "id": "im3", "type": "movie", "title": "Железный человек 3", "minutes": 125, "poster": "posters/im3.jpg"},
+      { "id": "thor2", "type": "movie", "title": "Тор 2: Царство тьмы", "minutes": 112, "poster": "posters/thor2.jpg" },
+      { "id": "cap2", "type": "movie", "title": "Первый мститель: Другая война", "minutes": 136, "poster": "posters/cap2.jpg" },
+      { "id": "gotg1", "type": "movie", "title": "Стражи Галактики", "minutes": 121, "poster": "posters/gotg1.jpg" },
+      { "id": "gotg2", "type": "movie", "title": "Стражи Галактики. Часть 2", "minutes": 136, "poster": "posters/gotg2.jpg" },
+      { "id": "avg2", "type": "movie", "title": "Мстители: Эра Альтрона", "minutes": 141, "poster": "posters/avg2.jpg" },
+      { "id": "ant1", "type": "movie", "title": "Человек-муравей", "minutes": 117, "poster": "posters/ant1.jpg" }
+    ]
+  },
+  {
+    "phase": 3,
+    "items": [
+      { "id": "cap3", "type": "movie", "title": "Первый мститель: Противостояние", "minutes": 147, "poster": "posters/cap3.jpg" },
+      { "id": "bw", "type": "movie", "title": "Чёрная вдова", "minutes": 134, "poster": "posters/bw.jpg" },
+      { "id": "bp", "type": "movie", "title": "Чёрная пантера", "minutes": 134, "poster": "posters/bp.jpg" },
+      { "id": "sm1", "type": "movie", "title": "Человек-паук: Возвращение домой", "minutes": 133, "poster": "posters/sm1.jpg" },
+      { "id": "doc1", "type": "movie", "title": "Доктор Стрэндж", "minutes": 115, "poster": "posters/doc1.jpg" },
+      { "id": "thor3", "type": "movie", "title": "Тор: Рагнарёк", "minutes": 130, "poster": "posters/thor3.jpg" },
+      { "id": "ant2", "type": "movie", "title": "Человек-муравей и Оса", "minutes": 118, "poster": "posters/ant2.jpg" },
+      { "id": "avg3", "type": "movie", "title": "Мстители: Война бесконечности", "minutes": 149, "poster": "posters/avg3.jpg" },
+      { "id": "avg4", "type": "movie", "title": "Мстители: Финал", "minutes": 182, "poster": "posters/avg4.jpg" }
+    ]
+  },
+  {
+    "phase": 4,
+    "items": [
+      {"id": "sm2", "type": "movie", "title": "Человек-паук: Вдали от дома", "minutes": 129, "poster": "posters/sm2.jpg" },
+      {"id": "wanda", "type": "series","title": "Ванда/Вижн",
+        "episodes": [
+          { "id": "wanda-ep1", "title": "Серия 1. Снято перед живой аудиторией", "minutes": 27 },
+          { "id": "wanda-ep2", "title": "Серия 2. Не переключайтесь", "minutes": 34 },
+          { "id": "wanda-ep3", "title": "Серия 3. Теперь в цвете", "minutes": 30 },
+          { "id": "wanda-ep4", "title": "Серия 4. Мы прерываем эту программу", "minutes": 33 },
+          { "id": "wanda-ep5", "title": "Серия 5. В особом эпизоде…", "minutes": 39 },
+          { "id": "wanda-ep6", "title": "Серия 6. Совершенно новый зловеще-очаровательный Хэллоуин!", "minutes": 35 },
+          { "id": "wanda-ep7", "title": "Серия 7. Ломая четвёртую стену", "minutes": 35 },
+          { "id": "wanda-ep8", "title": "Серия 8. Ранее в сериале", "minutes": 44 },
+          { "id": "wanda-ep9", "title": "Серия 9. Финал сериала", "minutes": 47 }
+        ],
+       "poster": "posters/wanda.jpg"
+      },
+      {"id": "faws", "type": "series","title": "Сокол и Зимний солдат",
+        "episodes": [
+          { "id": "faws-ep1", "title": "Серия 1. Новый мировой порядок", "minutes": 48 },
+          { "id": "faws-ep2", "title": "Серия 2. Человек в звёздно-полосатом", "minutes": 48 },
+          { "id": "faws-ep3", "title": "Серия 3. Торговец силой", "minutes": 51 },
+          { "id": "faws-ep4", "title": "Серия 4. Весь мир смотрит", "minutes": 52 },
+          { "id": "faws-ep5", "title": "Серия 5. Правда", "minutes": 58 },
+          { "id": "faws-ep6", "title": "Серия 6. Один мир, один народ", "minutes": 49}
+        ],
+       "poster": "posters/faws.jpg"
+      },
+      {"id": "loki-s1","type": "series","title": "Локи (Сезон 1)",
+        "episodes": [
+          { "id": "loki-s1-ep1", "title": "Серия 1. Славная миссия", "minutes": 52 },
+          { "id": "loki-s1-ep2", "title": "Серия 2. Вариант", "minutes": 54 },
+          { "id": "loki-s1-ep3", "title": "Серия 3. Ламентис", "minutes": 41 },
+          { "id": "loki-s1-ep4", "title": "Серия 4. Событие Нексуса", "minutes": 48 },
+          { "id": "loki-s1-ep5", "title": "Серия 5. Путешествие в тайну", "minutes": 49 },
+          { "id": "loki-s1-ep6", "title": "Серия 6. Ради всего времени. Навсегда.", "minutes": 46 }
+        ],
+       "poster": "posters/loki.jpg"
+      },
+      {"id": "shang","type": "movie","title": "Шан-Чи и легенда десяти колец","minutes": 132, "poster": "posters/shang.jpg"},
+      {"id": "ete","type": "movie","title": "Вечные","minutes": 156, "poster": "posters/ete.jpg"},
+      { "id": "sm3", "type": "movie", "title": "Человек-паук: Нет пути домой", "minutes": 148, "poster": "posters/sm3.jpg" },
+      { "id": "doc2", "type": "movie", "title": "Доктор Стрэндж: В мультивселенной безумия", "minutes": 126, "poster": "posters/doc2.jpg" },
+      { "id": "ant3", "type": "movie", "title": "Человек-муравей и Оса: Квантомания", "minutes": 124, "poster": "posters/ant3.jpg" },
+      { "id": "gotg3", "type": "movie", "title": "Стражи Галактики. Часть 3", "minutes": 150, "poster": "posters/gotg3.jpg" }
+    ]
+  }
+]

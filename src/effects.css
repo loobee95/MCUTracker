@@ -1,0 +1,284 @@
+/* Плавное заполнение прогресс-бара */
+.progress-fill {
+  transition: width 0.6s ease-in-out;
+}
+
+/* Анимация раскрытия списка серий */
+.series-episodes{
+  overflow: hidden;
+  transition: max-height .35s ease, opacity .25s ease;
+  max-height: 0;   /* <-- по умолчанию все СКРЫТЫ */
+  opacity: 0;
+}
+.series-episodes.open{
+  max-height: 1200px;  /* раскрыто */
+  opacity: 1;
+}
+
+/* Эффект при наведении на карточку фильма/сериала */
+.item-hover {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.item-hover:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(255,255,255,0.1);
+}
+
+:root{
+  --acc:#e62429;    /* Marvel красный */
+  --gold:#ffd800;
+  --bg2:#232323;
+}
+
+/* --- Ховер у карточек --- */
+.card {
+  background-color: var(--bg2);
+  margin-bottom: 9px;
+  border-radius: 12px;
+  padding: 14px 18px;
+  border-left: 6px solid var(--acc);
+  box-shadow: 0 2px 8px rgba(0,0,0,.25);
+  transition: transform .18s ease, box-shadow .2s ease, background-color .2s ease, border-color .2s ease;
+  position: relative;
+}
+.card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 22px rgba(0,0,0,.35);
+}
+.card.watched{
+  background-color: #1a5c23;
+  border-left-color:#fdc400;
+  color:#fff;
+}
+
+
+/* --- Плавное раскрытие списка серий --- */
+.series-episodes li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.series-episodes li .title {
+  flex: 1;
+}
+.series-episodes.open{
+  max-height: 1200px; /* заведомо больше, чем суммарная высота серий */
+  opacity: 1;
+}
+
+/* --- Кастомные чекбоксы --- */
+.chk{
+  -webkit-appearance:none; appearance:none;
+  width: 18px; height:18px;
+  border:2px solid var(--acc);
+  background:#111; color:#fff;
+  border-radius:5px;
+  display:inline-grid; place-content:center;
+  margin-right:8px; cursor:pointer;
+  transition: background .15s ease, border-color .15s ease, transform .05s ease;
+}
+.chk:active{ transform: scale(.96); }
+.chk::before{
+  content:"";
+  width:10px; height:10px;
+  transform: scale(0); transition: transform .12s ease-out;
+  background: var(--acc);
+  border-radius:2px;
+}
+.chk:checked{
+  border-color:#fdc400; background:#103d16;
+}
+.chk:checked::before{ transform: scale(1); }
+
+/* --- Прогресс-бар (плавное заполнение уже есть) --- */
+.progress-fill{ transition: width .6s ease-in-out; }
+
+/* --- Фон-постер справа + затемнение к центру --- */
+.card { position: relative; overflow: visible; }
+
+/* единая переменная "на сколько расширяем по вертикали" */
+.row-bg { --lift: 0px; }
+.row-bg:hover { --lift: 20px; }      /* подними больше/меньше по вкусу */
+
+.row-bg::before{
+  content:"";
+  position:absolute;
+  inset: 0;
+  top: calc(-1 * var(--lift));
+  bottom: calc(-1 * var(--lift));
+  background-image: var(--poster);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 12px;
+  z-index: 0;
+  transition: top .25s ease, bottom .25s ease;
+}
+
+/* затемняющий градиент для читаемости текста */
+.row-bg::after{
+  content:"";
+  position:absolute;
+  inset: 0;
+  top: calc(-1 * var(--lift));
+  bottom: calc(-1 * var(--lift));
+  background: linear-gradient(to left,
+    rgba(26,26,26,0.00) 0%,
+    rgba(26,26,26,0.40) 30%,
+    rgba(26,26,26,0.78) 55%,
+    rgba(26,26,26,0.95) 100%);
+  border-radius: 12px;
+  pointer-events:none;
+  z-index: 0;
+  transition: top .25s ease, bottom .25s ease;
+}
+
+/* контент всегда поверх */
+.card .content{
+  position:relative;
+  z-index:1;
+  display:flex;
+  align-items:center;
+  width:100%;
+}
+
+.series-episodes {
+  position: relative;
+  z-index: 2;
+}
+
+.episode {
+  position: relative;
+  z-index: 2;
+}
+
+.hero {
+  background:
+    radial-gradient(1200px 400px at 10% -20%, rgba(255,255,255,.08), transparent 60%),
+    radial-gradient(900px 300px at 90% 120%, rgba(255,255,255,.06), transparent 60%),
+    linear-gradient(180deg, #1f1f1f 0%, #141414 100%);
+  border-bottom: 5px solid #fff;
+  box-shadow: 0 2px 12px rgba(0,0,0,.35);
+}
+.hero-inner {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 22px 16px 16px;
+  display: flex;
+  align-items: flex-end;
+  gap: 18px;
+}
+.logo-marvel {
+  background: #e62429;
+  color: #fff;
+  font-weight: 900;
+  letter-spacing: 2px;
+  padding: 6px 12px;
+  font-size: 30px;
+  border: 4px solid #fff;
+  border-radius: 6px;
+  line-height: 1;
+  box-shadow: 0 2px 8px rgba(0,0,0,.35);
+}
+.logo-marvel span { display:inline-block; transform: translateY(1px); }
+
+.hero-title {
+  font-weight: 900;
+  font-size: 28px;
+}
+.hero-sub {
+  color: #cfcfcf;
+  font-size: 14px;
+  margin-top: 4px;
+}
+
+/* ---------- PROGRESS BAR (шире) ---------- */
+.progress-wrap {
+  max-width: 1100px;
+  margin: 18px auto 10px;
+  padding: 0 16px;
+}
+.progress {
+  background: #232323;
+  border: 2px solid var(--acc);
+  border-radius: 10px;
+  height: 26px;
+  overflow: hidden;
+  box-shadow: 0 1px 5px rgba(230,36,41,.35);
+}
+.progress__bar {
+  height: 100%;
+  background: linear-gradient(90deg, #e62429 70%, #fdc400 100%);
+  color: #fff;
+  text-align: center;
+  font-weight: 700;
+  line-height: 26px;
+}
+
+/* тёмная пилюля под временем/звёздами */
+.meta {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 4px 10px;
+  background: rgba(0,0,0,.42);
+  backdrop-filter: blur(1px);
+  border-radius: 10px;
+  box-shadow: 0 1px 6px rgba(0,0,0,.25);
+}
+
+/* золотой текст с мягкой обводкой */
+.gold {
+  color: var(--gold);
+  font-weight: 700;
+  text-shadow: 0 0 3px rgba(0,0,0,.7), 0 0 10px rgba(0,0,0,.5);
+}
+
+/* звёздам тоже немного контраста (если вдруг перезапишется inline, то останется из StarRating) */
+.stars span {
+  text-shadow: 0 0 3px rgba(0,0,0,.7), 0 0 10px rgba(0,0,0,.5);
+}
+
+/* симпатичный подвал */
+.footer {
+  margin-top: 28px;
+  background:
+    radial-gradient(800px 240px at 10% 0%, rgba(255,255,255,.06), transparent 60%),
+    radial-gradient(900px 260px at 100% 120%, rgba(255,255,255,.05), transparent 60%),
+    linear-gradient(180deg, #161616 0%, #0f0f0f 100%);
+  border-top: 1px solid #262626;
+}
+.footer-inner {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 18px 16px 26px;
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  justify-content: space-between;
+  color: #cfcfcf;
+  font-size: 14px;
+}
+.footer .links {
+  display: flex;
+  gap: 14px;
+  flex-wrap: wrap;
+}
+.footer a {
+  color: #e8e8e8;
+  text-decoration: none;
+  border-bottom: 1px dotted #777;
+}
+.footer a:hover {
+  color: #fff;
+  border-bottom-color: #fff;
+}
+.badge {
+  background: #e62429;
+  color: #fff;
+  font-weight: 800;
+  padding: 4px 8px;
+  border-radius: 8px;
+  border: 2px solid #ffffff;
+  letter-spacing: .5px;
+}
