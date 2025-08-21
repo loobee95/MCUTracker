@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <style>
+      .red{fill:#c62828}
+      .eye{fill:#ffffff}
+      .line{stroke:#101010;stroke-width:1.6;fill:none;stroke-linecap:round}
+      .outline{stroke:#101010;stroke-width:2;fill:none}
+    </style>
+  </defs>
+  <circle cx="32" cy="32" r="24" class="red"/>
+  <!-- web lines -->
+  <path class="line" d="M8 32h48"/>
+  <path class="line" d="M14 20c10 6 26 6 36 0"/>
+  <path class="line" d="M14 44c10-6 26-6 36 0"/>
+  <path class="line" d="M32 8v48"/>
+  <path class="line" d="M22 12c4 7 16 7 20 0"/>
+  <path class="line" d="M22 52c4-7 16-7 20 0"/>
+  <!-- eyes -->
+  <path class="eye" d="M14 30c3-5 10-7 16-4 0 0-2 8-12 9-2 .2-3.3-.9-4-.8-1.2.2-1.6-2.1 0-4.2z"/>
+  <path class="eye" d="M50 30c-3-5-10-7-16-4 0 0 2 8 12 9 2 .2 3.3-.9 4-.8 1.2.2 1.6-2.1 0-4.2z"/>
+  <circle cx="32" cy="32" r="24" class="outline"/>
+</svg>

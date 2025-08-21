@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <style>
+      .gold{fill:#fdc400}
+      .shadow{fill:#b28704;opacity:.2}
+    </style>
+  </defs>
+  <path class="gold" d="M32 8l6.9 14 15.4 2.2-11.1 10.8 2.6 15.1L32 43.8 18.2 50l2.6-15.1L9.6 24.2 25 22z"/>
+  <ellipse cx="32" cy="46" rx="14" ry="4" class="shadow"/>
+</svg>
