@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/MCUTracker/static/css/main.6315a529.css",
+    "main.js": "/MCUTracker/static/js/main.eb555387.js",
+    "static/js/453.ce37efbc.chunk.js": "/MCUTracker/static/js/453.ce37efbc.chunk.js",
+    "index.html": "/MCUTracker/index.html",
+    "main.6315a529.css.map": "/MCUTracker/static/css/main.6315a529.css.map",
+    "main.eb555387.js.map": "/MCUTracker/static/js/main.eb555387.js.map",
+    "453.ce37efbc.chunk.js.map": "/MCUTracker/static/js/453.ce37efbc.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6315a529.css",
+    "static/js/main.eb555387.js"
+  ]
+}

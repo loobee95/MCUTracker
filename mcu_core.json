@@ -1,0 +1,242 @@
+[
+  { "id": "cap1", "type": "movie", "title": "Капитан Америка: Первый мститель", "minutes": 124, "poster": "posters/cap1.jpg" },
+  { "id": "capm", "type": "movie", "title": "Капитан Марвел", "minutes": 128, "poster": "posters/capm.jpg" },
+  { "id": "im1", "type": "movie", "title": "Железный человек", "minutes": 126, "poster": "posters/im1.jpg" },
+  { "id": "im2", "type": "movie", "title": "Железный человек 2", "minutes": 125, "poster": "posters/im2.jpg" },
+  { "id": "ih", "type": "movie", "title": "Невероятный Халк", "minutes": 112, "poster": "posters/ih.jpg" },
+  { "id": "thor1", "type": "movie", "title": "Тор", "minutes": 114, "poster": "posters/thor1.jpg" },
+  { "id": "avg1", "type": "movie", "title": "Мстители", "minutes": 142, "poster": "posters/avg1.jpg" },
+
+  { "id": "one-consultant", "type": "movie", "title": "Консультант (One-Shot)", "minutes": 4 },
+  { "id": "one-funny", "type": "movie", "title": "Снято вместе (One-Shot)", "minutes": 5 },
+  { "id": "one-thelist", "type": "movie", "title": "В списке (One-Shot)", "minutes": 12 },
+  { "id": "one-item47", "type": "movie", "title": "Объект 47 (One-Shot)", "minutes": 12 },
+
+  { "id": "im3", "type": "movie", "title": "Железный человек 3", "minutes": 125, "poster": "posters/im3.jpg" },
+  { "id": "thor2", "type": "movie", "title": "Тор 2: Царство тьмы", "minutes": 112, "poster": "posters/thor2.jpg" },
+  { "id": "one-carter", "type": "movie", "title": "Агент Картер (One-Shot)", "minutes": 15 },
+  { "id": "one-king", "type": "movie", "title": "Hail the King (One-Shot)", "minutes": 14 },
+
+  { "id": "cap2", "type": "movie", "title": "Первый мститель: Другая война", "minutes": 136, "poster": "posters/cap2.jpg" },
+  { "id": "gotg1", "type": "movie", "title": "Стражи Галактики", "minutes": 121, "poster": "posters/gotg1.jpg" },
+
+  { "id": "gotg2", "type": "movie", "title": "Стражи Галактики. Часть 2", "minutes": 136, "poster": "posters/gotg2.jpg" },
+  { "id": "groot-s1", "type": "series", "title": "Я — Грут", "episodes": [
+  { "id": "groot-s1-e1", "title": "Эпизод 1", "minutes": 5 },
+  { "id": "groot-s1-e2", "title": "Эпизод 2", "minutes": 4 },
+  { "id": "groot-s1-e3", "title": "Эпизод 3", "minutes": 5 },
+  { "id": "groot-s1-e4", "title": "Эпизод 4", "minutes": 6 },
+  { "id": "groot-s1-e5", "title": "Эпизод 5", "minutes": 5 }
+  ], "poster": "posters/groot-s1.jpg" },
+
+  { "id": "avg2", "type": "movie", "title": "Мстители: Эра Альтрона", "minutes": 141, "poster": "posters/avg2.jpg" },
+  { "id": "ant1", "type": "movie", "title": "Человек-муравей", "minutes": 117, "poster": "posters/ant1.jpg" },
+  { "id": "cap3", "type": "movie", "title": "Первый мститель: Противостояние", "minutes": 147, "poster": "posters/cap3.jpg" },
+  { "id": "bw", "type": "movie", "title": "Чёрная вдова", "minutes": 134, "poster": "posters/bw.jpg" },
+  { "id": "sm1", "type": "movie", "title": "Человек-паук: Возвращение домой", "minutes": 133, "poster": "posters/sm1.jpg" },
+  { "id": "bp", "type": "movie", "title": "Чёрная Пантера", "minutes": 134, "poster": "posters/bp.jpg" },
+  { "id": "doc1", "type": "movie", "title": "Доктор Стрэндж", "minutes": 115, "poster": "posters/doc1.jpg" },
+  { "id": "thor3", "type": "movie", "title": "Тор: Рагнарёк", "minutes": 130, "poster": "posters/thor3.jpg" },
+  { "id": "ant2", "type": "movie", "title": "Человек-муравей и Оса", "minutes": 118, "poster": "posters/ant2.jpg" },
+  { "id": "avg3", "type": "movie", "title": "Мстители: Война бесконечности", "minutes": 149, "poster": "posters/avg3.jpg" },
+  { "id": "avg4", "type": "movie", "title": "Мстители: Финал", "minutes": 182, "poster": "posters/avg4.jpg" },
+
+  { "id": "loki-s1", "type": "series", "title": "Локи (Сезон 1)", "episodes": [
+    { "id": "loki-s1-ep1", "title": "Славная цель", "minutes": 43 },
+    { "id": "loki-s1-ep2", "title": "Вариант", "minutes": 46 },
+    { "id": "loki-s1-ep3", "title": "Ламентис", "minutes": 34 },
+    { "id": "loki-s1-ep4", "title": "Событие Нексус", "minutes": 41 },
+    { "id": "loki-s1-ep5", "title": "Путешествие в тайну", "minutes": 41 },
+    { "id": "loki-s1-ep6", "title": "Во все времена. Всегда.", "minutes": 38 }
+  ], "poster": "posters/loki.jpg" },
+
+  { "id": "whatif-s1", "type": "series", "title": "Что, если…? (Сезон 1)", "episodes": [
+    { "id": "whatif-s1-ep1", "title": "Серия 1", "minutes": 33 },
+    { "id": "whatif-s1-ep2", "title": "Серия 2", "minutes": 34 },
+    { "id": "whatif-s1-ep3", "title": "Серия 3", "minutes": 32 },
+    { "id": "whatif-s1-ep4", "title": "Серия 4", "minutes": 31 },
+    { "id": "whatif-s1-ep5", "title": "Серия 5", "minutes": 36 },
+    { "id": "whatif-s1-ep6", "title": "Серия 6", "minutes": 33 },
+    { "id": "whatif-s1-ep7", "title": "Серия 7", "minutes": 35 },
+    { "id": "whatif-s1-ep8", "title": "Серия 8", "minutes": 32 },
+    { "id": "whatif-s1-ep9", "title": "Серия 9", "minutes": 37 }
+  ] },
+
+  { "id": "wanda", "type": "series", "title": "Ванда/Вижн", "episodes": [
+    { "id": "wanda-ep1", "title": "Снято перед живой аудиторией", "minutes": 21 },
+    { "id": "wanda-ep2", "title": "Не переключайте канал", "minutes": 28 },
+    { "id": "wanda-ep3", "title": "В цвете", "minutes": 24 },
+    { "id": "wanda-ep4", "title": "Мы прерываем эту программу", "minutes": 26 },
+    { "id": "wanda-ep5", "title": "Очень особый выпуск", "minutes": 32 },
+    { "id": "wanda-ep6", "title": "All-New Halloween Spooktacular!", "minutes": 28 },
+    { "id": "wanda-ep7", "title": "Ломая четвёртую стену", "minutes": 28 },
+    { "id": "wanda-ep8", "title": "Ранее в…", "minutes": 37 },
+    { "id": "wanda-ep9", "title": "Финал сериала", "minutes": 41 }
+  ], "poster": "posters/wanda.jpg" },
+
+  { "id": "shang", "type": "movie", "title": "Шан-Чи и легенда десяти колец", "minutes": 132, "poster": "posters/shang.jpg" },
+
+  { "id": "faws", "type": "series", "title": "Сокол и Зимний солдат", "episodes": [
+    { "id": "faws-ep1", "title": "Новый мировой порядок", "minutes": 50 },
+    { "id": "faws-ep2", "title": "Человек со звёздами и полосами", "minutes": 50 },
+    { "id": "faws-ep3", "title": "Брокер силы", "minutes": 54 },
+    { "id": "faws-ep4", "title": "За нами следит весь мир", "minutes": 53 },
+    { "id": "faws-ep5", "title": "Истина", "minutes": 61 },
+    { "id": "faws-ep6", "title": "Один народ, одна планета", "minutes": 48 }
+  ], "poster": "posters/faws.jpg" },
+
+  { "id": "sm2", "type": "movie", "title": "Человек-паук: Вдали от дома", "minutes": 129, "poster": "posters/sm2.jpg" },
+  { "id": "ete", "type": "movie", "title": "Вечные", "minutes": 156, "poster": "posters/ete.jpg" },
+  { "id": "sm3", "type": "movie", "title": "Человек-паук: Нет пути домой", "minutes": 148, "poster": "posters/sm3.jpg" },
+  { "id": "doc2", "type": "movie", "title": "Доктор Стрэндж: В мультивселенной безумия", "minutes": 126, "poster": "posters/doc2.jpg" },
+
+  { "id": "hawkeye", "type": "series", "title": "Соколиный глаз", "episodes": [
+    { "id": "hawkeye-ep1", "title": "Никогда не встречай своих героев", "minutes": 42 },
+    { "id": "hawkeye-ep2", "title": "Прятки", "minutes": 43 },
+    { "id": "hawkeye-ep3", "title": "Отголоски", "minutes": 36 },
+    { "id": "hawkeye-ep4", "title": "Партнёры, не мои", "minutes": 32 },
+    { "id": "hawkeye-ep5", "title": "Ронин", "minutes": 37 },
+    { "id": "hawkeye-ep6", "title": "Так это — Рождество?", "minutes": 53 }
+  ], "poster": "posters/hawkeye.jpg" },
+
+  { "id": "mk", "type": "series", "title": "Лунный рыцарь", "episodes": [
+    { "id": "mk-ep1", "title": "Серия 1", "minutes": 47 },
+    { "id": "mk-ep2", "title": "Серия 2", "minutes": 53 },
+    { "id": "mk-ep3", "title": "Серия 3", "minutes": 50 },
+    { "id": "mk-ep4", "title": "Серия 4", "minutes": 50 },
+    { "id": "mk-ep5", "title": "Серия 5", "minutes": 51 },
+    { "id": "mk-ep6", "title": "Серия 6", "minutes": 44 }
+  ], "poster": "posters/mk.jpg" },
+
+  { "id": "sheh", "type": "series", "title": "Женщина-Халк: Адвокат", "episodes": [
+    { "id": "sheh-ep1", "title": "Серия 1", "minutes": 35 },
+    { "id": "sheh-ep2", "title": "Серия 2", "minutes": 31 },
+    { "id": "sheh-ep3", "title": "Серия 3", "minutes": 32 },
+    { "id": "sheh-ep4", "title": "Серия 4", "minutes": 32 },
+    { "id": "sheh-ep5", "title": "Серия 5", "minutes": 30 },
+    { "id": "sheh-ep6", "title": "Серия 6", "minutes": 31 },
+    { "id": "sheh-ep7", "title": "Серия 7", "minutes": 31 },
+    { "id": "sheh-ep8", "title": "Серия 8", "minutes": 37 },
+    { "id": "sheh-ep9", "title": "Серия 9", "minutes": 35 }
+  ], "poster": "posters/sheh.jpg" },
+
+  { "id": "msm", "type": "series", "title": "Мисс Марвел", "episodes": [
+    { "id": "msm-ep1", "title": "Серия 1", "minutes": 50 },
+    { "id": "msm-ep2", "title": "Серия 2", "minutes": 51 },
+    { "id": "msm-ep3", "title": "Серия 3", "minutes": 43 },
+    { "id": "msm-ep4", "title": "Серия 4", "minutes": 48 },
+    { "id": "msm-ep5", "title": "Серия 5", "minutes": 41 },
+    { "id": "msm-ep6", "title": "Серия 6", "minutes": 52 }
+  ], "poster": "posters/msm.jpg" },
+
+  { "id": "thor4", "type": "movie", "title": "Тор: Любовь и гром", "minutes": 119, "poster": "posters/thor4.jpg" },
+  { "id": "werewolf", "type": "movie", "title": "Оборотень ночью", "minutes": 53 },
+  { "id": "gotg-holiday", "type": "movie", "title": "Стражи Галактики: Праздничный спецвыпуск", "minutes": 42 },
+  { "id": "bp2", "type": "movie", "title": "Чёрная Пантера: Ваканда навеки", "minutes": 161, "poster": "posters/bp2.jpg" },
+
+  { "id": "ironheart", "type": "series", "title": "Железное сердце", "episodes": [
+    { "id": "ironheart-ep1", "title": "Отвези меня домой", "minutes": 39 },
+    { "id": "ironheart-ep2", "title": "Настоящая Натали, можешь встать?", "minutes": 41 },
+    { "id": "ironheart-ep3", "title": "Мы в опасности, девочка", "minutes": 40 },
+    { "id": "ironheart-ep4", "title": "Плохая магия", "minutes": 42 },
+    { "id": "ironheart-ep5", "title": "Карма — это порок", "minutes": 39 },
+    { "id": "ironheart-ep6", "title": "Прошлое есть прошлое", "minutes": 45 }
+  ] },
+
+  { "id": "eyes-wakanda", "type": "series", "title": "Очи Ваканды", "episodes": [
+    { "id": "eyes-ep1", "title": "Серия 1", "minutes": 30 },
+    { "id": "eyes-ep2", "title": "Серия 2", "minutes": 30 },
+    { "id": "eyes-ep3", "title": "Серия 3", "minutes": 30 },
+    { "id": "eyes-ep4", "title": "Серия 4", "minutes": 30 }
+  ] },
+
+  { "id": "gotg3", "type": "movie", "title": "Стражи Галактики. Часть 3", "minutes": 150, "poster": "posters/gotg3.jpg" },
+
+  { "id": "si", "type": "series", "title": "Секретное вторжение", "episodes": [
+    { "id": "si-ep1", "title": "Воскрешение", "minutes": 55 },
+    { "id": "si-ep2", "title": "Обещания", "minutes": 50 },
+    { "id": "si-ep3", "title": "Преданность/Предательство", "minutes": 45 },
+    { "id": "si-ep4", "title": "Любимая", "minutes": 48 },
+    { "id": "si-ep5", "title": "Убирайся", "minutes": 47 },
+    { "id": "si-ep6", "title": "Дом", "minutes": 49 }
+  ], "poster": "posters/si.jpg" },
+
+  { "id": "marvels", "type": "movie", "title": "Марвелы", "minutes": 105, "poster": "posters/marvels.jpg" },
+
+  { "id": "loki-s2", "type": "series", "title": "Локи (Сезон 2)", "episodes": [
+    { "id": "loki2-ep1", "title": "Ороунд-энд-Абоут", "minutes": 45 },
+    { "id": "loki2-ep2", "title": "Брейкинг Брэд", "minutes": 49 },
+    { "id": "loki2-ep3", "title": "1893", "minutes": 47 },
+    { "id": "loki2-ep4", "title": "Сердце TVA", "minutes": 50 },
+    { "id": "loki2-ep5", "title": "На краю времени", "minutes": 53 },
+    { "id": "loki2-ep6", "title": "Глаза открыты", "minutes": 55 }
+  ], "poster": "posters/loki2.jpg" },
+
+  { "id": "whatif-s2", "type": "series", "title": "Что, если…? (Сезон 2)", "episodes": [
+    { "id": "whatif-s2-ep1", "title": "Серия 1", "minutes": 33 },
+    { "id": "whatif-s2-ep2", "title": "Серия 2", "minutes": 34 },
+    { "id": "whatif-s2-ep3", "title": "Серия 3", "minutes": 35 },
+    { "id": "whatif-s2-ep4", "title": "Серия 4", "minutes": 32 },
+    { "id": "whatif-s2-ep5", "title": "Серия 5", "minutes": 33 },
+    { "id": "whatif-s2-ep6", "title": "Серия 6", "minutes": 34 },
+    { "id": "whatif-s2-ep7", "title": "Серия 7", "minutes": 33 },
+    { "id": "whatif-s2-ep8", "title": "Серия 8", "minutes": 35 },
+    { "id": "whatif-s2-ep9", "title": "Серия 9", "minutes": 34 }
+  ] },
+
+  { "id": "echo", "type": "series", "title": "Эхо", "episodes": [
+    { "id": "echo-ep1", "title": "Огонь", "minutes": 46 },
+    { "id": "echo-ep2", "title": "По венам", "minutes": 45 },
+    { "id": "echo-ep3", "title": "Под кожей", "minutes": 48 },
+    { "id": "echo-ep4", "title": "Техас", "minutes": 46 },
+    { "id": "echo-ep5", "title": "Эхо", "minutes": 51 }
+  ], "poster": "posters/echo.jpg" },
+
+  { "id": "zombies", "type": "series", "title": "Зомби Marvel", "episodes": [
+    { "id": "zom-ep1", "title": "Серия 1", "minutes": 33 },
+    { "id": "zom-ep2", "title": "Серия 2", "minutes": 32 },
+    { "id": "zom-ep3", "title": "Серия 3", "minutes": 34 },
+    { "id": "zom-ep4", "title": "Серия 4", "minutes": 35 }
+  ] },
+
+  { "id": "dpw", "type": "movie", "title": "Дэдпул и Росомаха", "minutes": 127, "poster": "posters/dpw.jpg" },
+
+  { "id": "agatha", "type": "series", "title": "Это всё Агата", "episodes": [
+    { "id": "ag-ep1", "title": "Старая ведьма возвращается", "minutes": 37 },
+    { "id": "ag-ep2", "title": "Подвал", "minutes": 40 },
+    { "id": "ag-ep3", "title": "Колдунья в деле", "minutes": 42 },
+    { "id": "ag-ep4", "title": "Песнь ведьм", "minutes": 41 },
+    { "id": "ag-ep5", "title": "Обряд", "minutes": 39 },
+    { "id": "ag-ep6", "title": "Ритуал", "minutes": 43 },
+    { "id": "ag-ep7", "title": "Разоблачение", "minutes": 42 },
+    { "id": "ag-ep8", "title": "Чёрная магия", "minutes": 44 },
+    { "id": "ag-ep9", "title": "Последний аккорд", "minutes": 48 }
+  ] },
+
+  { "id": "ddba", "type": "series", "title": "Сорвиголова: Рождённый заново", "episodes": [
+    { "id": "dd-ep1", "title": "Райские полчаса", "minutes": 46 },
+    { "id": "dd-ep2", "title": "Оптика", "minutes": 48 },
+    { "id": "dd-ep3", "title": "Ладонью своей руки", "minutes": 47 },
+    { "id": "dd-ep4", "title": "Так всегда системе", "minutes": 50 },
+    { "id": "dd-ep5", "title": "С интересом", "minutes": 46 },
+    { "id": "dd-ep6", "title": "Чрезмерная сила", "minutes": 49 },
+    { "id": "dd-ep7", "title": "Искусство ради искусства", "minutes": 47 },
+    { "id": "dd-ep8", "title": "Остров радости", "minutes": 50 },
+    { "id": "dd-ep9", "title": "Прямиком в ад", "minutes": 52 }
+  ] },
+
+  { "id": "cap4", "type": "movie", "title": "Капитан Америка: Новый мир", "minutes": 118, "poster": "posters/cap4.jpg" },
+  { "id": "ff-first", "type": "movie", "title": "Фантастическая четвёрка: Первые шаги", "minutes": 125 },
+
+  { "id": "whatif-s3", "type": "series", "title": "Что, если…? (Сезон 3)", "episodes": [
+    { "id": "whatif-s3-ep1", "title": "Серия 1", "minutes": 33 },
+    { "id": "whatif-s3-ep2", "title": "Серия 2", "minutes": 31 },
+    { "id": "whatif-s3-ep3", "title": "Серия 3", "minutes": 34 },
+    { "id": "whatif-s3-ep4", "title": "Серия 4", "minutes": 32 },
+    { "id": "whatif-s3-ep5", "title": "Серия 5", "minutes": 35 },
+    { "id": "whatif-s3-ep6", "title": "Серия 6", "minutes": 33 },
+    { "id": "whatif-s3-ep7", "title": "Серия 7", "minutes": 34 },
+    { "id": "whatif-s3-ep8", "title": "Серия 8", "minutes": 31 },
+    { "id": "whatif-s3-ep9", "title": "Серия 9", "minutes": 35 }
+  ] }
+]

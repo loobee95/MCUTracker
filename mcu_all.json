@@ -1,0 +1,42 @@
+[
+  {
+    "phase": 1,
+    "items": [
+      { "id": "im1", "type": "movie", "title": "Железный человек", "minutes": 126 },
+      { "id": "ih",  "type": "movie", "title": "Невероятный Халк", "minutes": 112 },
+      { "id": "im2", "type": "movie", "title": "Железный человек 2", "minutes": 124 },
+      { "id": "thor1", "type": "movie", "title": "Тор", "minutes": 115 },
+      { "id": "cap1", "type": "movie", "title": "Капитан Америка: Первый мститель", "minutes": 124 },
+      { "id": "avg1", "type": "movie", "title": "Мстители", "minutes": 143 }
+    ]
+  },
+  {
+    "phase": 4,
+    "items": [
+      {
+        "id": "bw2021",
+        "type": "movie",
+        "title": "Чёрная вдова",
+        "minutes": 134
+      },
+      {
+        "id": "wanda",
+        "type": "series",
+        "title": "Ванда/Вижн",
+        "episodes": [
+          { "id": "wanda-ep1", "title": "Серия 1", "minutes": 31 },
+          { "id": "wanda-ep2", "title": "Серия 2", "minutes": 36 }
+        ]
+      },
+      {
+        "id": "loki-s1",
+        "type": "series",
+        "title": "Локи (Сезон 1)",
+        "episodes": [
+          { "id": "loki-s1-ep1", "title": "Серия 1", "minutes": 52 },
+          { "id": "loki-s1-ep2", "title": "Серия 2", "minutes": 53 }
+        ]
+      }
+    ]
+  }
+]
